@@ -1,0 +1,6 @@
+# production
+*/out/
+*/build
+target
+**/output
+dist

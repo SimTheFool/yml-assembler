@@ -1,0 +1,4 @@
+summary: null
+story: !inc::stories/car_crash
+  content: null
+  chap: 3

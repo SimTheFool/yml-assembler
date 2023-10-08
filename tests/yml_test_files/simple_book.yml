@@ -1,0 +1,23 @@
+title: Juliette coupe le gateau
+summary: L'anniversaire de Juliette tourne mal
+story:
+  content: Ca y est ! Elle a 21 ans, et a invité tout le monde à pré coustille. Malheureusement Juliette n'est pas très adroite et se coupe le doigt en coupant le gâteau. Elle est emmenée à l'hôpital et se fait recoudre le doigt. Elle est très déçue de rater sa fête d'anniversaire.
+  chapter: 5
+page:
+  number: 40
+  weight: 10
+meta: I'm a root variable
+meta2: I'm another variable
+tags:
+- ivestigation
+- horror
+- adult
+covers:
+- color: yellow
+  size: 36
+- color: red
+  size: 10
+- color: black
+  size: 20
+- color: rose
+  size: 15

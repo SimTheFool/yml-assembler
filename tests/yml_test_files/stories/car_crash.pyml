@@ -1,0 +1,7 @@
+content: $content
+content_bis: !inc::stories/car_crash_bis
+chapter: $chap
+extend:
+    - !inc::chapters/next
+    - !inc::chapters/previous
+        chap: $chap + 15

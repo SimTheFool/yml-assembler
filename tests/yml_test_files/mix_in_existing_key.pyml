@@ -1,0 +1,15 @@
+tags:
+  - childhood
+covers:
+  color: green
+  size: 41
+extends:
+  - !inc::tags/adult
+  - !inc::other/other1
+  - !inc::other/other2
+    ON: key_one.key_two
+  - !inc::other/other3
+    ON: key_one
+key_one:
+  key_two:
+    - Hi there

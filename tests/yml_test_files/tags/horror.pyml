@@ -1,0 +1,7 @@
+extends: !inc::tags/adult
+tags: !mix horror
+covers: !mix
+  - color: red
+    size: 10
+  - color: black
+    size: 20

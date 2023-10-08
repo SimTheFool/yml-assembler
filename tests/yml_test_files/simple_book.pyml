@@ -1,0 +1,14 @@
+title: Juliette coupe le gateau
+summary: L'anniversaire de Juliette tourne mal
+story: !inc::stories/birthday
+  name: Juliette
+  age: 21
+  chap1: 2
+  chap2: 3
+tags:
+  - !inc::tags/investigation
+  - !inc::tags/horror
+page:
+  number: 40
+meta: $META
+meta2: $META2

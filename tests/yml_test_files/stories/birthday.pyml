@@ -1,0 +1,4 @@
+content: Ca y est ! Elle a $age ans, et a invité tout le monde à pré coustille. Malheureusement $name n'est pas très adroite et se coupe le doigt en coupant le gâteau. Elle est emmenée à l'hôpital et se fait recoudre le doigt. Elle est très déçue de rater sa fête d'anniversaire.
+chapter: $chap1 + $chap2
+_transform: !mix
+  - "page.weight = page.number * .25"

@@ -1,0 +1,59 @@
+{
+  "definitions": {
+    "cover": {
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "size": {
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "tag": {
+      "type": "string"
+    }
+  },
+  "properties": {
+    "covers": {
+      "items": {
+        "$ref": "#/definitions/cover"
+      },
+      "type": "array"
+    },
+    "story": {
+      "properties": {
+        "chapter": {
+          "type": "integer"
+        },
+        "content": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "content",
+        "chapter"
+      ],
+      "type": "object"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "tags": {
+      "items": {
+        "$ref": "#/definitions/tag"
+      },
+      "type": "array"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "summary",
+    "story"
+  ],
+  "type": "object"
+}

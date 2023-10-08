@@ -1,0 +1,7 @@
+a: 500
+_transform.t10: !mix
+    - "a = a * 2"
+_transform.t01: !mix
+    - "a = a - 10"
+_transform.$T_LAYER: !mix
+    - "a = a - 43"

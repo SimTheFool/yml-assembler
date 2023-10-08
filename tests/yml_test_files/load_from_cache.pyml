@@ -1,0 +1,4 @@
+storyB: !inc::stories/car_crash_bis
+  content: It's a AUDI car crash
+storyA: !inc::stories/car_crash_bis
+  content: It's a BMW car crash

@@ -1,0 +1,10 @@
+[tasks.localexp]
+script = '''
+cargo build
+cd ./target/debug
+sudo cp yml_assembler /usr/local/bin
+'''
+
+
+[tasks.testall]
+script = "cargo test"
